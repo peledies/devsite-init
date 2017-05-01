@@ -1,4 +1,14 @@
-## Install
+## Homebrew Install
+
+```
+brew tap peledies/tap
+brew install devsite-init
+```
+
+
+
+
+## Linux Install
 
 ```
 sudo git clone https://github.com/peledies/devsite-init.git /opt/devsite-init
