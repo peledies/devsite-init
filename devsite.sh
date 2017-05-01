@@ -11,9 +11,10 @@ else
   echo "${cyan}Creating new development project in ${magenta}`pwd`/$1 ${default}"
   git clone https://github.com/peledies/devsite.git $1 2>&1
 
+  cd $1
+
   echo "${cyan}You will need to set the origin.${default}"
   git remote remove origin
 
-  cd $1
   ./etc/scripts/setup.sh $1
 fi
