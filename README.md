@@ -17,5 +17,5 @@ sudo chmod +x /opt/devsite-init/devsite.sh
 ## Updating
 
 ```
-cd /opt/devsite-init && sudo git pull && cd -
+cd /opt/devsite-init && sudo git checkout --theirs . && cd -
 ```
