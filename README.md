@@ -1,7 +1,7 @@
 ## Install
 
 ```
-sudo git clone https://github.com/peledies/devsite-init.git /opt/devsite
+sudo git clone https://github.com/peledies/devsite-init.git /opt/devsite-init
 ```
 
 ### Create Symbolic Link to devsite-init
